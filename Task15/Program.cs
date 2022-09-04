@@ -17,7 +17,7 @@ else if (n > 5 && n < 8)
 {
 Console.WriteLine ($"Этот день - {DayOfWeek[n - 1]}. Это выходной!");
 }
-else if (n >= 8)
+else if (n >= 8 || n < 1)
 {
 Console.WriteLine ("В неделе 7 дней!");
 }

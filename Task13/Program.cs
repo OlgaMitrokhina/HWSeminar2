@@ -9,7 +9,7 @@ int n;
 n = Convert.ToInt32(Console.ReadLine());
 string stringNumber = Convert.ToString(n);
 
-if (n / 100 > 0)
+if (n > 99)
 {
 Console.WriteLine("Третья цифра цифра этого числа -> "+stringNumber[2]);
 }
